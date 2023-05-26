@@ -11,11 +11,6 @@ img {
   height: auto;
   object-fit: contain;
 }
-.box {
-  min-height: 100vh;
-  min-width: 100vw;
-  margin: 5rem auto;
-}
 .header {
   display: flex;
   flex-direction: row;
