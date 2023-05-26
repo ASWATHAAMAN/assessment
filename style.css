@@ -1,0 +1,89 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.box {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 5rem auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(241, 236, 236);
+  padding: 5px 5px;
+}
+.circle {
+  width: 1%;
+  display: flex;
+  gap: 3px;
+}
+.mail-box {
+  margin-left: 26.2rem;
+  border-radius: 5px;
+}
+.mail-id {
+  padding: 1px 10rem;
+  background-color: white;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(5, 5, 61);
+}
+.anchor {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: white;
+}
+.hero-section {
+  background-image: url("https://media.istockphoto.com/id/1254474165/photo/tropical-leaves-abstract-green-leaves-texture-nature-background.jpg?s=612x612&w=0&k=20&c=UQ7bV5XZ5Zeg4Lj5uQlg1FOlhZfmZpJirot754UVXWU=");
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  margin-top: -1px;
+}
+.hero-container {
+  z-index: 1;
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(4, 209, 4, 0.25);
+  z-index: 0;
+}
+.logo {
+  width: 50px;
+  margin: 1px auto;
+  padding-top: 3rem;
+}
+.para-1 {
+  text-align: center;
+  font-size: 22px;
+  width: 20rem;
+  margin-left: 30rem;
+}
+.para-2 {
+  text-align: center;
+  font-size: 13px;
+  width: 11rem;
+  margin-left: 35rem;
+  padding-top: 5px;
+}
